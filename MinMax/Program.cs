@@ -10,7 +10,23 @@ namespace MinMax
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Prova progetto");
+            int[] vettore = new int[5] { 3,6,7,2,4};
+
+            int min = vettore[0];
+
+            for (int i = 0; i < vettore.Length; i++)
+            {
+                if (min>vettore[i])
+                {
+                    min = vettore[i];
+                }
+            }
+
+
+            Console.WriteLine(min);
+
+            Console.ReadKey();
+            int max = vettore[0];
         }
     }
 }
