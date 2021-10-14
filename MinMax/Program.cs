@@ -25,6 +25,7 @@ namespace MinMax
 
             Console.WriteLine(min);
             Console.WriteLine("Sto aggiungendo delle modifiche");
+            Console.WriteLine("Sto aggiungendo cambiamenti per far impallare il sistema");
 
             Console.ReadKey();
             int max = vettore[0];
